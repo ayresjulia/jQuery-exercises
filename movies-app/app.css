@@ -1,0 +1,84 @@
+body {
+	background: url('https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
+	background-size: cover;
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+}
+/* title animation */
+#animation {
+	margin-top: 50px;
+	color: rgba(250, 166, 11, 1);
+	background-color: black;
+}
+
+#animation h1 {
+	text-transform: uppercase;
+	display: block;
+	font-family: 'Finger Paint', cursive;
+}
+h1 {
+	font-size: 60px;
+	animation: text 3s 1;
+}
+
+@keyframes text {
+	0% {
+		color: #000;
+	}
+	50% {
+		letter-spacing: 25px;
+	}
+	100% {
+		letter-spacing: 0px;
+	}
+}
+
+/* input line with rate us button */
+#new-movie-form input {
+	border: 2px solid orange;
+	border-radius: 20px;
+	padding: 10px;
+	background-color: white;
+	width: 30%;
+	margin-bottom: 10px;
+}
+
+::placeholder {
+	font-style: italic;
+}
+#new-movie-form input:focus {
+	outline: none;
+}
+
+#submit {
+	background-color: white;
+	color: black;
+	border: 2px solid orange;
+	border-radius: 20px;
+	padding: 10px;
+}
+#submit:hover {
+	background-color: rgba(250, 166, 11, 1);
+	color: white;
+}
+
+table {
+	background-color: white;
+	color: black;
+	border: 2px solid orange;
+	border-radius: 20px;
+	width: 100%;
+}
+
+.btn.btn-danger {
+	background-color: white;
+	color: black;
+	border: 2px solid orange;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.btn.btn-danger:hover {
+	background-color: rgba(250, 166, 11, 1);
+	color: white;
+}
